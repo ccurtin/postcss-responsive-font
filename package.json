@@ -1,0 +1,33 @@
+{
+  "name": "postcss-responsive-font",
+  "version": "0.0.0",
+  "description": "PostCSS plugin Set responsive min/max font-sizes within viewport ranges.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "responsive typography",
+    "scaling"
+  ],
+  "author": "ccurtin <work@christopherjamescurtin.com>",
+  "license": "MIT",
+  "repository": "ccurtin/postcss-responsive-font",
+  "bugs": {
+    "url": "https://github.com/ccurtin/postcss-responsive-font/issues"
+  },
+  "homepage": "https://github.com/ccurtin/postcss-responsive-font",
+  "dependencies": {
+    "postcss": "^5.2.5"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.9.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava ./tests/**/*.js && eslint ./tests/**/*.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
