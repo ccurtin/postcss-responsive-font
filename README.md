@@ -6,9 +6,11 @@ Set responsive min/max font-sizes within viewport ranges...
 [ci-img]:  https://travis-ci.org/ccurtin/postcss-responsive-font.svg
 [ci]:      https://travis-ci.org/ccurtin/postcss-responsive-font
 
-Adds a new declaration that has 4 values.
+Adds a new declaration that requires 4 values.
 
-`font-size-responsive:` `min-font-size` `max-font-size` `min-viewport-width` `max-viewport-width`
+*font-size-responsive:* `min-font-size` `max-font-size` `min-viewport-width` `max-viewport-width`
+
+*Input*: 
 
 ```css
 .foo {
@@ -16,6 +18,7 @@ Adds a new declaration that has 4 values.
 }
 ```
 
+*Output*: 
 ```css
 .foo {
     font-size:12px;
@@ -31,6 +34,11 @@ Adds a new declaration that has 4 values.
     }
 }
 ```
+
+
+*Demo* :
+![postcss-responsive-font](https://camo.githubusercontent.com/ad2eed53aceebb2070fdf443dfdf94cb6e84563e/68747470733a2f2f6368726973746f706865726a616d657363757274696e2e636f6d2f746d702f706f73746373732d726573706f6e736976652d666f6e742e676966)
+
 
 ## Usage
 
