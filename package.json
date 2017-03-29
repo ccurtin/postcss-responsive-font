@@ -1,6 +1,6 @@
 {
   "name": "postcss-responsive-font",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Simple PostCSS plugin for creating responsive font sizes.",
   "keywords": [
     "postcss",
