@@ -105,7 +105,7 @@ To clarify, let's look at a proper example's Input and Output:
 Not properly cascading your styles will cause bugs! but you knew that already :)
 
 **Demo** :
-![postcss-responsive-font](https://camo.githubusercontent.com/ad2eed53aceebb2070fdf443dfdf94cb6e84563e/68747470733a2f2f6368726973746f706865726a616d657363757274696e2e636f6d2f746d702f706f73746373732d726573706f6e736976652d666f6e742e676966)
+![postcss-responsive-font](https://user-images.githubusercontent.com/8930794/51264433-79b82700-1984-11e9-953b-3b4eee0b97cb.gif)
 
 
 ## Usage
