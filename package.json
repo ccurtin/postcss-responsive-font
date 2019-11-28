@@ -1,6 +1,6 @@
 {
   "name": "postcss-responsive-font",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple PostCSS plugin for creating responsive font sizes.",
   "keywords": [
     "postcss",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
-    "eslint": "^6.7.1",
+    "eslint": "^5.16.0",
     "eslint-config-postcss": "^2.0.2"
   },
   "scripts": {
